@@ -8,6 +8,8 @@
 </head>
 <body>
     <h1>Fibonacci Generator</h1>
+
+    <p id="sequence"></p>
     <img src="./images/Screenshot 2023-05-22 at 10.51.18.png" alt="squares whose side lengths are successive Fibonacci numbers" />
     <p>In mathematics, the Fibonacci sequence is a sequence in which each number is the sum of the two preceding ones. Numbers that are part of the Fibonacci sequence are known as Fibonacci numbers, commonly denoted Fn .</p>
     <p>0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144,...</p>
@@ -26,8 +28,11 @@
             }
             return sequence
         }
-        var sequenceLength = prompt("How many number of items in the sequence?:");
-        alert(fibonacciGenerator(sequenceLength));
+        
+        var sequenceLength = prompt("How many items in the Fibonacci sequence?:");
+        //alert(fibonacciGenerator(sequenceLength)); 
+        document.getElementById("sequence").innerHTML = fibonacciGenerator(sequenceLength);
+        console.log(sequenceLength);
     </script>
 </body>
 </html>
