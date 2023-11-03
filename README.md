@@ -10,5 +10,5 @@ The Fibonacci sequence is found in many different disciplines and in nature. For
 
 ![fibonacci pattern image](./images/fibonacci-img.png);
 
-[Read more about Fibonacci Sequence](https://en.wikipedia.org/wiki/Fibonacci_sequence);
+[Read more about Fibonacci Sequence](https://en.wikipedia.org/wiki/Fibonacci_sequence){:target="_blank"};
 
