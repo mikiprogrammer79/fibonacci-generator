@@ -8,7 +8,7 @@ Fibonacci introduced an exponential sequence of numbers, now known as the Fibona
 
 The Fibonacci sequence is found in many different disciplines and in nature. For example, it has been used to describe plant life growth, estimate population increases over a specified timeframe, model virus breakouts, and predict the behavior of financial markets. 
 
-![fibonacci pattern image](./images/fibonacci-img.png);
+![fibonacci pattern image](./images/fibonacci-img.png)
 
 [Read more about Fibonacci Sequence](https://en.wikipedia.org/wiki/Fibonacci_sequence) {:target="_blank"}
 
